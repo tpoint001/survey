@@ -1,0 +1,38 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #000a14;
+  color: #F0B90B;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden; 
+}
+
+.modal {
+ display: block;
+ border-radius: 10px;
+
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+@media (max-width: 700px) {
+  .logocl {
+    width: 65px;
+    height: 35px;
+  }
+}
